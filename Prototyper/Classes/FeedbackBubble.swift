@@ -12,7 +12,7 @@ class FeedbackBubble: UIView {
     private static var size = CGSize(width: 70, height: 70)
     
     init(target: Any, action: Selector) {
-        super.init(frame: CGRect(x: -FeedbackBubble.size.width/2, y: UIScreen.main.applicationFrame.size.height/2, width: FeedbackBubble.size.width, height: FeedbackBubble.size.height))
+        super.init(frame: CGRect(x: -FeedbackBubble.size.width/2, y: UIScreen.main.bounds.size.height/2, width: FeedbackBubble.size.width, height: FeedbackBubble.size.height))
         
         let feedbackButton = UIButton(type: .custom)
         feedbackButton.setImage(UIImage(named: "feedback_icon", in: Bundle(for: LoginViewController.self), compatibleWith: nil), for: .normal)
@@ -28,7 +28,7 @@ class FeedbackBubble: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func detectPan(recognizer: UIPanGestureRecognizer) {
+    @objc func detectPan(recognizer: UIPanGestureRecognizer) {
         self.center = recognizer.location(in: self.superview)
         let superViewWidth = self.superview?.bounds.size.width ?? 0
         let superViewHeight = self.superview?.bounds.size.height ?? 0

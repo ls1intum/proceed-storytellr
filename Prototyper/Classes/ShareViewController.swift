@@ -123,7 +123,7 @@ class ShareViewController: UIViewController {
     
     // MARK: Keyboard Notifications
     
-    func keyboardWillShow(_ notification: Notification) {
+    @objc func keyboardWillShow(_ notification: Notification) {
         let keyboardInfo = (notification as NSNotification).userInfo as! [String: AnyObject]
         let keyboardFrame = keyboardInfo[UIKeyboardFrameEndUserInfoKey]?.cgRectValue
         let animationDuration = keyboardInfo[UIKeyboardAnimationDurationUserInfoKey]?.doubleValue
@@ -137,7 +137,7 @@ class ShareViewController: UIViewController {
         })
     }
     
-    func keyboardWillHide(_ notification: Notification) {
+    @objc func keyboardWillHide(_ notification: Notification) {
         let keyboardInfo = (notification as NSNotification).userInfo as! [String: AnyObject]
         let animationDuration = keyboardInfo[UIKeyboardAnimationDurationUserInfoKey]?.doubleValue
         
@@ -150,12 +150,12 @@ class ShareViewController: UIViewController {
     
     // MARK: Actions
         
-    func cancelButtonPressed(_ sender: AnyObject) {
+    @objc func cancelButtonPressed(_ sender: AnyObject) {
         PrototypeController.sharedInstance.isFeedbackButtonHidden = wasFeedbackButtonHidden
         self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
 
-    func sendButtonPressed(_ sender: AnyObject) {
+    @objc func sendButtonPressed(_ sender: AnyObject) {
         guard let email = emailTextField.text else {
             self.showNoEmailAlert()
             return

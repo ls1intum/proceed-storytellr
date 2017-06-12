@@ -97,6 +97,12 @@ struct Texts {
     }
 }
 
+struct PrototypeUI {
+    static let ButtonColor = UIColor(colorLiteralRed: 0.5, green: 0.5, blue: 0.5, alpha: 0.5)
+    static let ShowButtonsTime = 0.5
+    static let AnimationTime = 0.25
+}
+
 struct UserDefaultKeys {
     static let AppId = "AppId"
     static let ReleaseId = "ReleaseId"

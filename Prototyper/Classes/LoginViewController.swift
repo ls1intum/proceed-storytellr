@@ -52,11 +52,11 @@ class LoginViewController: UIViewController {
     
     // MARK: Actions
     
-    func cancelButtonPressed() {
+    @objc func cancelButtonPressed() {
         self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
     
-    func validateTextFields() {
+    @objc func validateTextFields() {
         let email = emailField.text ?? ""
         let password = passwordField.text ?? ""
         

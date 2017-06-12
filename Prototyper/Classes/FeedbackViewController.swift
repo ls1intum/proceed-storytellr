@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import KeychainSwift
 
 class FeedbackViewController: UIViewController {
     
@@ -123,7 +122,7 @@ class FeedbackViewController: UIViewController {
         deleteScreenshotButton = deleteButton
 
         let deleteButtonMetrics = ["inset": -17, "size": deleteButtonSize]
-        let deleteButtonViews = ["screenshotButton": screenshotButton, "deleteButton": deleteButton]
+        let deleteButtonViews = ["screenshotButton": screenshotButton!, "deleteButton": deleteButton]
         
         let horizontalButtonConstraints = NSLayoutConstraint.constraints(withVisualFormat: "[deleteButton(size)]-inset-[screenshotButton]", options: [], metrics: deleteButtonMetrics, views: deleteButtonViews)
         let verticalButtonConstraints = NSLayoutConstraint.constraints(withVisualFormat: "V:[deleteButton(size)]-inset-[screenshotButton]", options: [], metrics: deleteButtonMetrics, views: deleteButtonViews)
@@ -158,7 +157,7 @@ class FeedbackViewController: UIViewController {
     
     // MARK: Keyboard Notifications
     
-    func keyboardWillShow(_ notification: Notification) {
+    @objc func keyboardWillShow(_ notification: Notification) {
         let keyboardInfo = (notification as NSNotification).userInfo as! [String: AnyObject]
         let keyboardFrame = keyboardInfo[UIKeyboardFrameEndUserInfoKey]?.cgRectValue
         let animationDuration = keyboardInfo[UIKeyboardAnimationDurationUserInfoKey]?.doubleValue
@@ -173,7 +172,7 @@ class FeedbackViewController: UIViewController {
         
     }
     
-    func keyboardWillHide(_ notification: Notification) {
+    @objc func keyboardWillHide(_ notification: Notification) {
         let keyboardInfo = (notification as NSNotification).userInfo as! [String: AnyObject]
         let animationDuration = keyboardInfo[UIKeyboardAnimationDurationUserInfoKey]?.doubleValue
         
@@ -186,12 +185,12 @@ class FeedbackViewController: UIViewController {
     
     // MARK: Actions
         
-    func cancelButtonPressed(_ sender: AnyObject) {
+    @objc func cancelButtonPressed(_ sender: AnyObject) {
         PrototypeController.sharedInstance.isFeedbackButtonHidden = wasFeedbackButtonHidden
         self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
 
-    func sendButtonPressed(_ sender: AnyObject) {
+    @objc func sendButtonPressed(_ sender: AnyObject) {
         if !APIHandler.sharedAPIHandler.isLoggedIn {
             let alertController = UIAlertController(title: Texts.LoginAlertSheet.Title, message: nil, preferredStyle: .alert)
             alertController.addAction(UIAlertAction(title: Texts.LoginAlertSheet.Yes, style: .default, handler: { _ in
@@ -206,7 +205,7 @@ class FeedbackViewController: UIViewController {
         }
     }
     
-    func deleteScreenshotButtonPressed(_ sender: Any) {
+    @objc func deleteScreenshotButtonPressed(_ sender: Any) {
         screenshot = nil
         screenshotButton.isHidden = true
         deleteScreenshotButton?.isHidden = true
@@ -264,7 +263,7 @@ class FeedbackViewController: UIViewController {
         self.showErrorAlert()
     }
     
-    func imageButtonPressed(_ sender: AnyObject) {
+    @objc func imageButtonPressed(_ sender: AnyObject) {
         let annotationViewController = ImageAnnotationViewController()
         annotationViewController.image = screenshot
         annotationViewController.delegate = self

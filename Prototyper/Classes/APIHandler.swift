@@ -61,7 +61,7 @@ class APIHandler {
         }
     }
     
-    func login(_ email: String, password: String,  success: @escaping (Void) -> Void, failure: @escaping (_ error : Error?) -> Void) {
+    func login(_ email: String, password: String,  success: @escaping () -> Void, failure: @escaping (_ error : Error?) -> Void) {
         let params = postParamsForLogin(email: email, password: password)
         let articlesURL = URL(string: API.EndPoints.Login, relativeTo: API.BaseURL as URL?)
         
@@ -84,7 +84,7 @@ class APIHandler {
         }
     }
     
-    func sendGeneralFeedback(description: String, name: String? = nil, success: @escaping (Void) -> Void, failure: @escaping (_ error : Error?) -> Void) {
+    func sendGeneralFeedback(description: String, name: String? = nil, success: @escaping () -> Void, failure: @escaping (_ error : Error?) -> Void) {
         guard let appId = appId, let releaseId = releaseId else {
             print("You need to set the app and release id first")
             return
@@ -98,7 +98,7 @@ class APIHandler {
         }
     }
     
-    func sendScreenFeedback(screenshot: UIImage, description: String, name: String? = nil, success: @escaping (Void) -> Void, failure: @escaping (_ error : Error?) -> Void) {
+    func sendScreenFeedback(screenshot: UIImage, description: String, name: String? = nil, success: @escaping () -> Void, failure: @escaping (_ error : Error?) -> Void) {
         guard let appId = appId, let releaseId = releaseId else {
             print("You need to set the app and release id first")
             failure(nil)
@@ -116,7 +116,7 @@ class APIHandler {
         }
     }
     
-    func sendShareRequest(for email: String, because explanation: String, name: String? = nil, success: @escaping (Void) -> Void, failure: @escaping (_ error : Error?) -> Void) {
+    func sendShareRequest(for email: String, because explanation: String, name: String? = nil, success: @escaping () -> Void, failure: @escaping (_ error : Error?) -> Void) {
         guard let appId = appId, let releaseId = releaseId else {
             print("You need to set the app and release id first")
             failure(nil)

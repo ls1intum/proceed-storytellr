@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import jot
 
 protocol ImageAnnotationViewControllerDelegate {
     func imageAnnotated(_ image: UIImage)
@@ -18,7 +17,7 @@ class ImageAnnotationViewController: UIViewController {
     var image: UIImage!
     var delegate: ImageAnnotationViewControllerDelegate?
     
-    fileprivate var jotViewController: JotViewController!
+//    fileprivate var jotViewController: JotViewController!
     fileprivate var imageView: UIImageView!
     fileprivate var colorButtons: [UIButton]!
     
@@ -29,7 +28,8 @@ class ImageAnnotationViewController: UIViewController {
         title = "Annotate image"
         
         addImageView()
-        addJotViewController()
+        print("TODO: Add view controller for drawing")
+//        addJotViewController()
         addColorPicker()
         addBarButtonItems()
     }
@@ -53,26 +53,26 @@ class ImageAnnotationViewController: UIViewController {
         view.addConstraints(verticalConstraints)
     }
     
-    fileprivate func addJotViewController() {
-        guard jotViewController == nil else { return }
-        
-        jotViewController = JotViewController()
-        jotViewController.view.translatesAutoresizingMaskIntoConstraints = false
-        
-        addChildViewController(jotViewController)
-        view.addSubview(jotViewController.view)
-        jotViewController.didMove(toParentViewController: self)
-        
-        jotViewController.state = JotViewState.drawing
-        jotViewController.drawingColor = UIColor.cyan
-        
-        let leftConstraint = NSLayoutConstraint(item: jotViewController.view, attribute: .left, relatedBy: .equal, toItem: imageView, attribute: .left, multiplier: 1, constant: 0)
-        let rightConstraint = NSLayoutConstraint(item: jotViewController.view, attribute: .right, relatedBy: .equal, toItem: imageView, attribute: .right, multiplier: 1, constant: 0)
-        let topConstraint = NSLayoutConstraint(item: jotViewController.view, attribute: .top, relatedBy: .equal, toItem: imageView, attribute: .top, multiplier: 1, constant: 0)
-        let bottomConstraint = NSLayoutConstraint(item: jotViewController.view, attribute: .bottom, relatedBy: .equal, toItem: imageView, attribute: .bottom, multiplier: 1, constant: 0)
-        
-        view.addConstraints([leftConstraint, rightConstraint, topConstraint, bottomConstraint])
-    }
+//    fileprivate func addJotViewController() {
+//        guard jotViewController == nil else { return }
+//        
+//        jotViewController = JotViewController()
+//        jotViewController.view.translatesAutoresizingMaskIntoConstraints = false
+//        
+//        addChildViewController(jotViewController)
+//        view.addSubview(jotViewController.view)
+//        jotViewController.didMove(toParentViewController: self)
+//        
+//        jotViewController.state = JotViewState.drawing
+//        jotViewController.drawingColor = UIColor.cyan
+//        
+//        let leftConstraint = NSLayoutConstraint(item: jotViewController.view, attribute: .left, relatedBy: .equal, toItem: imageView, attribute: .left, multiplier: 1, constant: 0)
+//        let rightConstraint = NSLayoutConstraint(item: jotViewController.view, attribute: .right, relatedBy: .equal, toItem: imageView, attribute: .right, multiplier: 1, constant: 0)
+//        let topConstraint = NSLayoutConstraint(item: jotViewController.view, attribute: .top, relatedBy: .equal, toItem: imageView, attribute: .top, multiplier: 1, constant: 0)
+//        let bottomConstraint = NSLayoutConstraint(item: jotViewController.view, attribute: .bottom, relatedBy: .equal, toItem: imageView, attribute: .bottom, multiplier: 1, constant: 0)
+//        
+//        view.addConstraints([leftConstraint, rightConstraint, topConstraint, bottomConstraint])
+//    }
     
     fileprivate func addBarButtonItems() {
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(cancelButtonPressed(_:)))
@@ -183,21 +183,23 @@ class ImageAnnotationViewController: UIViewController {
     
     // MARK: Actions
     
-    func cancelButtonPressed(_ sender: AnyObject) {
+    @objc func cancelButtonPressed(_ sender: AnyObject) {
         self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
     
-    func saveButtonPressed(_ sender: AnyObject) {
+    @objc func saveButtonPressed(_ sender: AnyObject) {
         self.presentingViewController?.dismiss(animated: true, completion: nil)
-        delegate?.imageAnnotated(jotViewController.draw(on: image))
+//        delegate?.imageAnnotated(jotViewController.draw(on: image))
+        print("TODO: Get image")
     }
     
-    func colorButtonPressed(_ colorButton: UIButton) {
+    @objc func colorButtonPressed(_ colorButton: UIButton) {
         for button in colorButtons {
             button.alpha = 0.4
         }
 
         colorButton.alpha = 1.0
-        jotViewController.drawingColor = colorButton.backgroundColor
+//        jotViewController.drawingColor = colorButton.backgroundColor
+        print("TODO: Set color")
     }
 }

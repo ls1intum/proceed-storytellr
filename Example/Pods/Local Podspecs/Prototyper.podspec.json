@@ -1,41 +1,29 @@
 {
   "name": "Prototyper",
-  "version": "0.8.6",
+  "version": "1.0",
   "summary": "Framework to mix prototypes and real apps.",
   "description": "The Prototyper framework allows you to create a mix between app prototypes and real apps.",
-  "homepage": "https://github.com/grafele/Prototyper",
+  "homepage": "https://www1.in.tum.de",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Stefan Kofler": "grafele@gmail.com"
+    "Chair of Applied Software Engineering": "ios@in.tum.de"
   },
   "source": {
-    "git": "https://github.com/grafele/Prototyper.git",
-    "tag": "0.8.6"
+    "git": "https://github.com/ls1intum/proceed-prototyper.git",
+    "tag": "1.0"
   },
-  "social_media_url": "https://twitter.com/kofse",
+  "social_media_url": "https://twitter.com/ls1intum",
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source_files": "Prototyper/Classes/**/*",
   "resources": "Prototyper/Assets/*",
   "dependencies": {
-    "NSHash": [
-      "~> 1.1"
-    ],
-    "SSZipArchive": [
-      "~> 1.6"
-    ],
-    "GCDWebServer": [
-      "~> 3.3"
-    ],
-    "jot": [
-      "~> 0.1.5"
-    ],
     "KeychainSwift": [
-      "~> 7.0"
+
     ]
   }
 }
