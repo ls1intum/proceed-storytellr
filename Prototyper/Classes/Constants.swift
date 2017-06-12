@@ -8,6 +8,14 @@
 
 import Foundation
 
+// Data Types for handling the layout of the view
+
+enum InfoDataType : Int {
+    case Undefined = 0
+    case ScenarioStep // 1
+    case Question // 2
+}
+
 enum HTTPMethod: String {
     case GET = "GET"
     case POST = "POST"

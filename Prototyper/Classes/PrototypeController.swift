@@ -9,7 +9,7 @@
 import Foundation
 import KeychainSwift
 
-open class PrototypeController: NSObject {
+open class PrototypeController: NSObject, ScenarioInfoViewControllerDelegate {
     open static let sharedInstance = PrototypeController()
     
     fileprivate var feedbackBubble: FeedbackBubble!
@@ -37,22 +37,13 @@ open class PrototypeController: NSObject {
     // MARK: Feedback
     
     @objc func feedbackBubbleTouched() {
-        let actionSheet = UIAlertController(title: Texts.FeedbackActionSheet.Title, message: Texts.FeedbackActionSheet.Text, preferredStyle: .actionSheet)
-        actionSheet.popoverPresentationController?.sourceView = feedbackBubble
-        actionSheet.popoverPresentationController?.sourceRect = feedbackBubble.bounds
-        actionSheet.addAction(UIAlertAction(title: Texts.FeedbackActionSheet.WriteFeedback, style: .default) { _ in
-            self.showFeedbackView()
-        })
-        actionSheet.addAction(UIAlertAction(title: Texts.FeedbackActionSheet.ShareApp, style: .default) { _ in
-            self.shareApp()
-        })
-        actionSheet.addAction(UIAlertAction(title: Texts.FeedbackActionSheet.HideFeedbackBubble, style: .default) { _ in
-            self.hideFeedbackButton()
-        })
-        actionSheet.addAction(UIAlertAction(title: Texts.FeedbackActionSheet.Cancel, style: .cancel, handler: nil))
-        if let rootViewController = getTopViewController() {
-            rootViewController.present(actionSheet, animated: true, completion: nil)
-        }
+        guard let rootViewController = getTopViewController() else { return }
+        
+        let infoViewController = ScenarioInfoViewController(dataType: .Question, isLastStep: false)
+        infoViewController.delegate = self
+        
+        infoViewController.modalPresentationStyle = .overFullScreen
+        rootViewController.present(infoViewController, animated: true, completion: nil)
     }
     
     func showFeedbackView() {
@@ -139,5 +130,29 @@ open class PrototypeController: NSObject {
         }
         
         return currentVC
+    }
+    
+    // MARK: - ScenarioInfoViewControllerDelegate
+    
+    func didPressFreeFeedback(_ : UIButton) {
+        self.showFeedbackView()
+    }
+    
+    func didPressShare(_ : UIButton) {
+        self.shareApp()
+    }
+    
+    func didPressDismissButton(_ : UIButton) {
+        self.hideFeedbackButton()
+    }
+    
+    func didPressHelpButton(_: UIButton) {
+        guard let rootViewController = getTopViewController() else { return }
+        
+        let infoViewController = ScenarioInfoViewController(dataType: .ScenarioStep, isLastStep: StoryTellrController.sharedInstance.isLastStep)
+        infoViewController.delegate = self
+        
+        infoViewController.modalPresentationStyle = .overFullScreen
+        rootViewController.present(infoViewController, animated: true, completion: nil)
     }
 }

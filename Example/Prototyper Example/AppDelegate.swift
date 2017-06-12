@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Prototyper
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let scenario = [
+            ScenarioStep.init(stepNumber: 1, stepDescription: "Click on the feedback button", questions: [ScenarioQuestion.init(questionDescription: "Do you like the tab bar?"), ScenarioQuestion(questionDescription: "Do you like the colors?")])
+        ]
+        
+        StoryTellrController.sharedInstance.scenario = scenario
         return true
     }
 
