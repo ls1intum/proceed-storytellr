@@ -36,10 +36,12 @@ class ScenarioInfoQuestionView: ScenarioInfoView {
                 bottomView = feedbackBottomView
             } else {
                 titleLabel.text = "There are no questions right now."
+                bottomView = defaultBottomView
             }
             
         } else {
             titleLabel.text = "There are no questions right now."
+            bottomView = defaultBottomView
         }
         
         self.setConstraints()
