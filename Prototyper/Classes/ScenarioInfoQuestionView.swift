@@ -10,7 +10,6 @@ import UIKit
 
 class ScenarioInfoQuestionView: ScenarioInfoView {
     // MARK: - Initialization
-    
     convenience init() {
         self.init(scenarioStep: nil)
     }
@@ -80,18 +79,6 @@ class ScenarioInfoQuestionView: ScenarioInfoView {
     }
     
     // MARK: - Getters
-    
-    var currentIndex : Int = 0 {
-        didSet {
-            if let stepQuestions = questions {
-                if currentIndex <= stepQuestions.count - 1 {
-                    titleLabel.text = stepQuestions[currentIndex].questionDescription
-                }
-            } else {
-                titleLabel.text = "There are no questions right now."
-            }
-        }
-    }
     
     var freeFeedbackButton : UIButton = {
         let button = UIButton()
@@ -179,7 +166,8 @@ class ScenarioInfoQuestionView: ScenarioInfoView {
     
     @objc override func didTapYes(sender: UIButton) {
         guard let delegate = self.delegate, let questions = self.questions else { return }
-        delegate.didPressBottomButton(_: sender, withAnswer: false, isLastFeedback: currentIndex >= questions.count - 1)
+        let answer = questions[currentIndex].questionDescription + "YES"
+        delegate.didPressBottomButton(_: sender, withAnswer: answer, isLastFeedback: currentIndex >= questions.count - 1)
         
         questions[currentIndex].isAnswered = true
         currentIndex += 1
@@ -187,7 +175,8 @@ class ScenarioInfoQuestionView: ScenarioInfoView {
     
     @objc override func didTapNo(sender: UIButton) {
         guard let delegate = self.delegate, let questions = self.questions else { return }
-        delegate.didPressBottomButton(_: sender, withAnswer: false, isLastFeedback: currentIndex >= questions.count - 1)
+        let answer = questions[currentIndex].questionDescription + "NO"
+        delegate.didPressBottomButton(_: sender, withAnswer: answer, isLastFeedback: currentIndex >= questions.count - 1)
         
         questions[currentIndex].isAnswered = true
         currentIndex += 1

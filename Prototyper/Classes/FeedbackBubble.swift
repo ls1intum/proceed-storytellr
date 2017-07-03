@@ -9,6 +9,7 @@
 import Foundation
 
 class FeedbackBubble: UIView {
+    
     private static var size = CGSize(width: 70, height: 70)
     
     init(target: Any, action: Selector) {
@@ -20,12 +21,59 @@ class FeedbackBubble: UIView {
         feedbackButton.addTarget(target, action: action, for: .touchUpInside)
         self.addSubview(feedbackButton)
         
+        self.addSubview(notificationBubble)
+        self.notificationBubble.addSubview(notificationLabel)
+        
+        //position constraints
+        let viewsDictionary = ["background": self.notificationBubble, "label": notificationLabel] as [String : Any]
+        
+        let hConstraints = NSLayoutConstraint.constraints(withVisualFormat: "H:|-2-[label]-2-|", options: NSLayoutFormatOptions(rawValue: 0),metrics: nil, views: viewsDictionary)
+        let vConstraints = NSLayoutConstraint.constraints(withVisualFormat: "V:|-2-[label]-2-|", options: NSLayoutFormatOptions(rawValue: 0),metrics: nil, views: viewsDictionary)
+        let hBubbleConstraints = NSLayoutConstraint.constraints(withVisualFormat: "H:[background(25)]-(-8)-|", options: NSLayoutFormatOptions(rawValue: 0),metrics: nil, views: viewsDictionary)
+        let vBubbleConstraints = NSLayoutConstraint.constraints(withVisualFormat: "V:|-(-5)-[background(25)]", options: NSLayoutFormatOptions(rawValue: 0),metrics: nil, views: viewsDictionary)
+        
+        self.notificationBubble.addConstraints(hConstraints)
+        self.notificationBubble.addConstraints(vConstraints)
+        self.addConstraints(hBubbleConstraints)
+        self.addConstraints(vBubbleConstraints)
+        
         let panRecognizer = UIPanGestureRecognizer(target:self, action: #selector(detectPan(recognizer:)))
         self.gestureRecognizers = [panRecognizer]
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    fileprivate var notificationBubble : UIView = {
+        let notificationBubble = UIView()
+        notificationBubble.translatesAutoresizingMaskIntoConstraints = false
+        notificationBubble.backgroundColor = UIColor.red
+        notificationBubble.layer.cornerRadius = 12.5
+        
+        return notificationBubble
+    }()
+    
+    fileprivate var notificationLabel : UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.textColor = UIColor.white
+        label.font = UIFont.boldSystemFont(ofSize: 16.0)
+        label.textAlignment = .center
+        label.text = "0"
+        
+        return label
+    }()
+    
+    open var notificationNumber = 0 {
+        didSet {
+            if notificationNumber > 0 {
+                notificationBubble.alpha = 1
+                notificationLabel.text = String(notificationNumber)
+            } else {
+                notificationBubble.alpha = 0
+            }
+        }
     }
     
     @objc func detectPan(recognizer: UIPanGestureRecognizer) {

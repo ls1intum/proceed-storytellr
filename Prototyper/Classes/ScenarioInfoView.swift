@@ -9,7 +9,7 @@
 import UIKit
 
 protocol ScenarioInfoViewDelegate : class {
-    func didPressBottomButton(_: UIButton, withAnswer: Bool?, isLastFeedback: Bool?) -> Void
+    func didPressBottomButton(_: UIButton, withAnswer: String?, isLastFeedback: Bool?) -> Void
     func didPressFreeFeedbackButton(_: UIButton) -> Void
     func didPressHelpButton(_: UIButton) -> Void
     func didPressShareButton(_: UIButton) -> Void
@@ -68,6 +68,18 @@ class ScenarioInfoView: UIView {
     }
     
     // MARK: - Getters
+    
+    var currentIndex : Int = 0 {
+        didSet {
+            if let stepQuestions = questions {
+                if currentIndex <= stepQuestions.count - 1 {
+                    titleLabel.text = stepQuestions[currentIndex].questionDescription
+                }
+            } else {
+                titleLabel.text = "There are no questions right now."
+            }
+        }
+    }
     
     var backgroundView : UIView = {
         let background = UIView()
@@ -135,11 +147,13 @@ class ScenarioInfoView: UIView {
     
     @objc func didTapYes(sender: UIButton) {
         guard let delegate = self.delegate else { return }
-        delegate.didPressBottomButton(_: sender, withAnswer: false, isLastFeedback: false)
+        let answer = "Did you like the implementation of this scenario? - YES"
+        delegate.didPressBottomButton(_: sender, withAnswer: answer, isLastFeedback: false)
     }
     
     @objc func didTapNo(sender: UIButton) {
         guard let delegate = self.delegate else { return }
-        delegate.didPressBottomButton(_: sender, withAnswer: false, isLastFeedback: false)
+        let answer = "Did you like the implementation of this scenario? - NO"
+        delegate.didPressBottomButton(_: sender, withAnswer: answer, isLastFeedback: false)
     }
 }

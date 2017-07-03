@@ -99,10 +99,15 @@ class ScenarioInfoViewController: UIViewController, ScenarioInfoViewDelegate {
     
     // MARK: - ScenarioInfoViewDelegate
     
-    func didPressBottomButton(_: UIButton, withAnswer: Bool?, isLastFeedback: Bool?) {
+    func didPressBottomButton(_: UIButton, withAnswer: String?, isLastFeedback: Bool?) {
         if let answer = withAnswer, let lastFeeback = isLastFeedback {
             // Received a valid answer.
-            // TODO: save answer to the database
+            let name = String(describing: UserDefaults.standard.object(forKey: UserDefaultKeys.Username))
+            APIHandler.sharedAPIHandler.sendGeneralFeedback(description: answer, name: name, success: {
+                PrototypeController.sharedInstance.decrementNotificationNumber(by: 1)
+            }, failure: { (error) in
+                // add error handling
+            })
             
            if lastFeeback || (isLastStep && dataType == .ScenarioStep) {
                 // Dismiss the VC.

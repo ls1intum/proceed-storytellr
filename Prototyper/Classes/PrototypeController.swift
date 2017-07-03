@@ -34,6 +34,14 @@ open class PrototypeController: NSObject, ScenarioInfoViewControllerDelegate {
         }
     }
     
+    open func setNotificationNumber(to: Int) {
+        feedbackBubble.notificationNumber = to
+    }
+    
+    open func decrementNotificationNumber(by: Int) {
+        feedbackBubble.notificationNumber -= by
+    }
+    
     // MARK: Feedback
     
     @objc func feedbackBubbleTouched() {
