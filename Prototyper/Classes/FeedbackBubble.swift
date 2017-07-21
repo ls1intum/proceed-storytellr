@@ -16,7 +16,7 @@ class FeedbackBubble: UIView {
         super.init(frame: CGRect(x: -FeedbackBubble.size.width/2, y: UIScreen.main.bounds.size.height/2, width: FeedbackBubble.size.width, height: FeedbackBubble.size.height))
         
         let feedbackButton = UIButton(type: .custom)
-        feedbackButton.setImage(UIImage(named: "storytellr_icon", in: Bundle(for: LoginViewController.self), compatibleWith: nil), for: .normal)
+        feedbackButton.setImage(UIImage(named: "feedback_icon", in: Bundle(for: LoginViewController.self), compatibleWith: nil), for: .normal)
         feedbackButton.frame = CGRect(x: 0, y: 0, width: FeedbackBubble.size.width, height: FeedbackBubble.size.height)
         feedbackButton.addTarget(target, action: action, for: .touchUpInside)
         self.addSubview(feedbackButton)
@@ -50,6 +50,7 @@ class FeedbackBubble: UIView {
         notificationBubble.translatesAutoresizingMaskIntoConstraints = false
         notificationBubble.backgroundColor = UIColor.red
         notificationBubble.layer.cornerRadius = 12.5
+        notificationBubble.alpha = 0
         
         return notificationBubble
     }()

@@ -18,12 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let scenario = [
-            ScenarioStep.init(stepNumber: 1, stepDescription: "Click on the feedback button", questions: [ScenarioQuestion.init(questionDescription: "Do you like the tab bar?"), ScenarioQuestion(questionDescription: "Do you like the colors?")]),
-            ScenarioStep.init(stepNumber: 2, stepDescription: "Click on the Cookie tab bar", questions: [ScenarioQuestion.init(questionDescription: "Do you like the cookies?"), ScenarioQuestion(questionDescription: "Do you want to have the button increased?")])
-        ]
+        PrototypeController.sharedInstance.showFeedbackButton(true)
         
-        StoryTellrController.sharedInstance.scenario = scenario
+        StoryTellrController.sharedInstance.filename = "scenario"
+        
         return true
     }
 

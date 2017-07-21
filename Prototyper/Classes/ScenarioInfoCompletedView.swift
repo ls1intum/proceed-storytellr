@@ -35,8 +35,8 @@ class ScenarioInfoCompletedView: ScenarioInfoView {
         let viewsDictionary = ["completed": completedView, "title": titleLabel, "bottom" : feedbackBottomView] as [String : Any]
         
         //position constraints
-        let hConstraintCompleted = NSLayoutConstraint.constraints(withVisualFormat: "[completed(50)]", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: viewsDictionary)
-        let vConstraintsCompleted = NSLayoutConstraint.constraints(withVisualFormat: "V:|-[completed(50)]-25@999-[title]-25@999-[bottom]-|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: viewsDictionary)
+        let hConstraintCompleted = NSLayoutConstraint.constraints(withVisualFormat: "[completed(40)]", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: viewsDictionary)
+        let vConstraintsCompleted = NSLayoutConstraint.constraints(withVisualFormat: "V:|-[completed(40)]-25@999-[title]-25@999-[bottom]-|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: viewsDictionary)
         let titleConstraint = NSLayoutConstraint.constraints(withVisualFormat: "H:|-20-[title]-20-|",options: NSLayoutFormatOptions(rawValue: 0),metrics: nil, views: viewsDictionary)
         
         let centerCompletedX = NSLayoutConstraint(item: completedView, attribute:.centerX, relatedBy:.equal, toItem: backgroundView, attribute:.centerX, multiplier: 1.0, constant: 0.0)
@@ -53,7 +53,7 @@ class ScenarioInfoCompletedView: ScenarioInfoView {
     var completedView : UIImageView = {
         let view = UIImageView()
         view.backgroundColor = UIColor.clear
-        view.image = UIImage(named: "check")
+        view.image = UIImage(named: "check", in: Bundle(for: LoginViewController.self), compatibleWith: nil)
         view.translatesAutoresizingMaskIntoConstraints = false
         
         return view

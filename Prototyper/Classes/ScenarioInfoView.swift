@@ -118,7 +118,7 @@ class ScenarioInfoView: UIView {
         
         let rightButton = UIButton()
         rightButton.translatesAutoresizingMaskIntoConstraints = false
-        rightButton.setImage(UIImage(named: "Cancel-80", in: Bundle(for: LoginViewController.self), compatibleWith: nil), for: .normal)
+        rightButton.setImage(UIImage(named: "cancel", in: Bundle(for: LoginViewController.self), compatibleWith: nil), for: .normal)
         rightButton.addTarget(self, action: #selector(didTapNo), for: .touchUpInside)
         
         view.addSubview(leftButton)
@@ -127,9 +127,9 @@ class ScenarioInfoView: UIView {
         let viewsDictionary = ["left": leftButton, "right": rightButton] as [String : Any]
         
         //position constraints
-        let hConstraints = NSLayoutConstraint.constraints(withVisualFormat: "H:|-10-[left(30)]-(>=90@999)-[right(30)]-10-|",options: NSLayoutFormatOptions(rawValue: 0),metrics: nil, views: viewsDictionary)
-        let vConstraintsLeft = NSLayoutConstraint.constraints(withVisualFormat: "V:|-10-[left(30)]-10-|",options: NSLayoutFormatOptions(rawValue: 0),metrics: nil, views: viewsDictionary)
-        let vConstraintsRight = NSLayoutConstraint.constraints(withVisualFormat: "V:|-10-[right(30)]-10-|",options: NSLayoutFormatOptions(rawValue: 0),metrics: nil, views: viewsDictionary)
+        let hConstraints = NSLayoutConstraint.constraints(withVisualFormat: "H:|-10-[left(40)]-(>=90@999)-[right(40)]-10-|",options: NSLayoutFormatOptions(rawValue: 0),metrics: nil, views: viewsDictionary)
+        let vConstraintsLeft = NSLayoutConstraint.constraints(withVisualFormat: "V:|[left(40)]-10-|",options: NSLayoutFormatOptions(rawValue: 0),metrics: nil, views: viewsDictionary)
+        let vConstraintsRight = NSLayoutConstraint.constraints(withVisualFormat: "V:|[right(40)]-10-|",options: NSLayoutFormatOptions(rawValue: 0),metrics: nil, views: viewsDictionary)
         
         view.addConstraints(hConstraints)
         view.addConstraints(vConstraintsLeft)

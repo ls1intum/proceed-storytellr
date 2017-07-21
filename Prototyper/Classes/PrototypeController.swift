@@ -38,6 +38,10 @@ open class PrototypeController: NSObject, ScenarioInfoViewControllerDelegate {
         feedbackBubble.notificationNumber = to
     }
     
+    open func incrementNotificationNumber(by: Int) {
+        feedbackBubble.notificationNumber += by
+    }
+    
     open func decrementNotificationNumber(by: Int) {
         feedbackBubble.notificationNumber -= by
     }
@@ -45,7 +49,7 @@ open class PrototypeController: NSObject, ScenarioInfoViewControllerDelegate {
     // MARK: Feedback
     
     @objc func feedbackBubbleTouched() {
-        guard let rootViewController = getTopViewController() else { return }
+        guard let rootViewController = Utils.getTopViewController() else { return }
         
         let infoViewController = ScenarioInfoViewController(dataType: .Question, isLastStep: false)
         infoViewController.delegate = self
@@ -55,7 +59,7 @@ open class PrototypeController: NSObject, ScenarioInfoViewControllerDelegate {
     }
     
     func showFeedbackView() {
-        guard let rootViewController = getTopViewController() else { return }
+        guard let rootViewController = Utils.getTopViewController() else { return }
         
         let feedbackViewController = FeedbackViewController()
         feedbackViewController.wasFeedbackButtonHidden = PrototypeController.sharedInstance.isFeedbackButtonHidden
@@ -91,7 +95,7 @@ open class PrototypeController: NSObject, ScenarioInfoViewControllerDelegate {
     }
     
     private func shareApp() {
-        guard let rootViewController = getTopViewController() else { return }
+        guard let rootViewController = Utils.getTopViewController() else { return }
         
         let shareViewController = ShareViewController()
         
@@ -100,7 +104,7 @@ open class PrototypeController: NSObject, ScenarioInfoViewControllerDelegate {
     }
     
     private func showInfoAlertAfterHiding() {
-        guard let rootViewController = getTopViewController() else { return }
+        guard let rootViewController = Utils.getTopViewController() else { return }
         
         let alertController = UIAlertController(title: Texts.FeedbackHideAlertSheet.Title, message: nil, preferredStyle: .alert)
         alertController.addAction(UIAlertAction(title: Texts.FeedbackHideAlertSheet.OK, style: .default, handler: nil))
@@ -128,19 +132,17 @@ open class PrototypeController: NSObject, ScenarioInfoViewControllerDelegate {
         }
     }
     
-    private func getTopViewController() -> UIViewController? {
-        guard let rootViewController = UIApplication.shared.keyWindow?.rootViewController else { return nil }
-        
-        var currentVC = rootViewController
-        
-        while let presentedVC = currentVC.presentedViewController {
-            currentVC = presentedVC
-        }
-        
-        return currentVC
-    }
-    
     // MARK: - ScenarioInfoViewControllerDelegate
+    
+    func didPressSaveFeedbackButton(_: UIButton) {
+        StoryTellrController.sharedInstance.numberOfUnansweredQuestionsInScenario -= 1
+        
+        // Save scenario.
+        ScenarioDataHandler.sharedInstance.saveToJSON()
+        
+        // Update the notification count
+        decrementNotificationNumber(by: 1)
+    }
     
     func didPressFreeFeedback(_ : UIButton) {
         self.showFeedbackView()
@@ -152,10 +154,11 @@ open class PrototypeController: NSObject, ScenarioInfoViewControllerDelegate {
     
     func didPressDismissButton(_ : UIButton) {
         self.hideFeedbackButton()
+        StoryTellrController.sharedInstance.shouldShowScenarioSteps = false
     }
     
     func didPressHelpButton(_: UIButton) {
-        guard let rootViewController = getTopViewController() else { return }
+        guard let rootViewController = Utils.getTopViewController() else { return }
         
         let infoViewController = ScenarioInfoViewController(dataType: .ScenarioStep, isLastStep: StoryTellrController.sharedInstance.isLastStep)
         infoViewController.delegate = self

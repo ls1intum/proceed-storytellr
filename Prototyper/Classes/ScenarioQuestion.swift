@@ -8,12 +8,12 @@
 
 import Foundation
 
-open class ScenarioQuestion: Any {
+open class ScenarioQuestion: Codable {
     open let questionDescription : String
-    open var isAnswered : Bool
+    open var answer : String
     
-    public init(questionDescription : String) {
+    public init(questionDescription : String, answer : String) {
         self.questionDescription = questionDescription
-        self.isAnswered = false
+        self.answer = answer
     }
 }

@@ -15,6 +15,7 @@ protocol ScenarioInfoViewControllerDelegate : class {
     func didPressShare(_ : UIButton) -> Void
     func didPressDismissButton(_ : UIButton) -> Void
     func didPressHelpButton(_ : UIButton) -> Void
+    func didPressSaveFeedbackButton(_ : UIButton) -> Void
 }
 
 class ScenarioInfoViewController: UIViewController, ScenarioInfoViewDelegate {
@@ -99,19 +100,26 @@ class ScenarioInfoViewController: UIViewController, ScenarioInfoViewDelegate {
     
     // MARK: - ScenarioInfoViewDelegate
     
-    func didPressBottomButton(_: UIButton, withAnswer: String?, isLastFeedback: Bool?) {
-        if let answer = withAnswer, let lastFeeback = isLastFeedback {
+    func didPressBottomButton(_ button: UIButton, withAnswer: String?, isLastFeedback: Bool?) {
+        if let delegate = delegate, let answer = withAnswer, let lastFeeback = isLastFeedback {
             // Received a valid answer.
-            let name = String(describing: UserDefaults.standard.object(forKey: UserDefaultKeys.Username))
-            APIHandler.sharedAPIHandler.sendGeneralFeedback(description: answer, name: name, success: {
-                PrototypeController.sharedInstance.decrementNotificationNumber(by: 1)
-            }, failure: { (error) in
-                // add error handling
-            })
+            // Store feedback
+            StoryTellrController.sharedInstance.appendFeedback(forFeedback: answer)
             
-           if lastFeeback || (isLastStep && dataType == .ScenarioStep) {
+            
+            if lastFeeback || (isLastStep && dataType == .ScenarioStep) {
                 // Dismiss the VC.
-                self.dismiss(animated: true, completion: nil)
+                self.dismiss(animated: true, completion: {
+                    delegate.didPressSaveFeedbackButton(button)
+                })
+            } else {
+                StoryTellrController.sharedInstance.numberOfUnansweredQuestionsInScenario -= 1
+                
+                // Save scenario.
+                ScenarioDataHandler.sharedInstance.saveToJSON()
+                
+                // Update the notification count
+                PrototypeController.sharedInstance.decrementNotificationNumber(by: 1)
             }
         } else {
             // Dismiss the VC.

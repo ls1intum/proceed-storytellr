@@ -1,0 +1,94 @@
+{
+    "id": "v1",
+    "isCompleted": false,
+    "userFeedback": "",
+    "steps": [{
+              "stepNumber": 1,
+              "stepDescription": "Start creating your cookie order by clicking on the order button\nAnswer all of the questions provided within the Prototyper Button.",
+              "questions": [{
+                            "questionDescription": "Do you like the image?",
+                            "answer" : ""
+                            },
+                            {
+                            "questionDescription": "Should the button have a rounder shape?",
+                            "answer" : ""
+                            }
+                            ]
+              },
+              {
+              "stepNumber": 2,
+              "stepDescription": "Customize your snack by choosing the components and selecting a time and a payment method",
+              "questions": [{
+                            "questionDescription": "Do you like the design as table view?",
+                            "answer" : ""
+                            },
+                            {
+                            "questionDescription": "Do you like the colors?",
+                            "answer" : ""
+                            }
+                            ]
+              },
+              {
+              "stepNumber": 3,
+              "stepDescription": "Select a dough for the cookie",
+              "questions": [{
+                            "questionDescription": "Do you like the images as cell background?",
+                            "answer" : ""
+                            },
+                            {
+                            "questionDescription": "Should the cells be smaller?",
+                            "answer" : ""
+                            },
+                            {
+                            "questionDescription": "Do you want more options?",
+                            "answer" : ""
+                            }
+                            ]
+              },
+              {
+              "stepNumber": 4,
+              "stepDescription": "Select a choclate type for your cookie",
+              "questions": []
+              },
+              {
+              "stepNumber": 5,
+              "stepDescription": "Select a crunchiness level for your cookies",
+              "questions": [{
+                            "questionDescription": "Should we also use images here?",
+                            "answer" : ""
+                            }
+                            ]
+              },
+              {
+              "stepNumber": 6,
+              "stepDescription": "Set the time when you want your cookie to be ready",
+              "questions": [{
+                            "questionDescription": "Should we have more options here?",
+                            "answer" : ""
+                            }
+                            ]
+              },
+              {
+              "stepNumber": 7,
+              "stepDescription": "Select a payment method for your cookie",
+              "questions": [{
+                            "questionDescription": "Should we have more options here?",
+                            "answer" : ""
+                            },
+                            {
+                            "questionDescription": "Should we add images to the payment methods?",
+                            "answer" : ""
+                            }
+                            ]
+              },
+              {
+              "stepNumber": 8,
+              "stepDescription": "",
+              "questions": [{
+                            "questionDescription": "Should we also have a top bar here?",
+                            "answer" : ""
+                            }
+                            ]
+              }
+              ]
+}

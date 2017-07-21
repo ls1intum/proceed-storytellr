@@ -14,6 +14,11 @@
 		652FC1D21EE7D47900A71789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652FC1D11EE7D47900A71789 /* Assets.xcassets */; };
 		652FC1D51EE7D47900A71789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652FC1D31EE7D47900A71789 /* LaunchScreen.storyboard */; };
 		6F5473EE3373FC627A273220 /* Pods_Prototyper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6F9E8F364E53C77F1182FD /* Pods_Prototyper_Example.framework */; };
+		8F83125D1F1E25C800DDBCA6 /* CustomizeCookieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F83125C1F1E25C800DDBCA6 /* CustomizeCookieTableViewController.swift */; };
+		8F83125F1F1E260B00DDBCA6 /* StartCookieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F83125E1F1E260B00DDBCA6 /* StartCookieViewController.swift */; };
+		8F8312611F1E2A4F00DDBCA6 /* CookieDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8312601F1E2A4F00DDBCA6 /* CookieDetailsTableViewController.swift */; };
+		8FCDA2761F12754500235225 /* scenario.json in Resources */ = {isa = PBXBuildFile; fileRef = 8FCDA2751F12754100235225 /* scenario.json */; };
+		8FFDE9CB1F1E33B200FCCFBB /* OrderDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFDE9CA1F1E33B200FCCFBB /* OrderDoneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		652FC1D11EE7D47900A71789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		652FC1D41EE7D47900A71789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		652FC1D61EE7D47900A71789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F83125C1F1E25C800DDBCA6 /* CustomizeCookieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizeCookieTableViewController.swift; sourceTree = "<group>"; };
+		8F83125E1F1E260B00DDBCA6 /* StartCookieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCookieViewController.swift; sourceTree = "<group>"; };
+		8F8312601F1E2A4F00DDBCA6 /* CookieDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieDetailsTableViewController.swift; sourceTree = "<group>"; };
+		8FCDA2751F12754100235225 /* scenario.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scenario.json; sourceTree = "<group>"; };
+		8FFDE9CA1F1E33B200FCCFBB /* OrderDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDoneViewController.swift; sourceTree = "<group>"; };
 		F9611811A2E79F89C886A9E9 /* Pods-Prototyper Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prototyper Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Prototyper Example/Pods-Prototyper Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FE6F9E8F364E53C77F1182FD /* Pods_Prototyper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prototyper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,8 +75,13 @@
 			children = (
 				652FC1CA1EE7D47900A71789 /* AppDelegate.swift */,
 				652FC1CC1EE7D47900A71789 /* ViewController.swift */,
+				8F83125C1F1E25C800DDBCA6 /* CustomizeCookieTableViewController.swift */,
+				8F8312601F1E2A4F00DDBCA6 /* CookieDetailsTableViewController.swift */,
+				8FCDA2751F12754100235225 /* scenario.json */,
 				6519F6C11EE8B35200BB8D4F /* container.bundle */,
 				652FC1CE1EE7D47900A71789 /* Main.storyboard */,
+				8FFDE9CA1F1E33B200FCCFBB /* OrderDoneViewController.swift */,
+				8F83125E1F1E260B00DDBCA6 /* StartCookieViewController.swift */,
 				652FC1D11EE7D47900A71789 /* Assets.xcassets */,
 				652FC1D31EE7D47900A71789 /* LaunchScreen.storyboard */,
 				652FC1D61EE7D47900A71789 /* Info.plist */,
@@ -154,6 +169,7 @@
 			files = (
 				652FC1D51EE7D47900A71789 /* LaunchScreen.storyboard in Resources */,
 				652FC1D21EE7D47900A71789 /* Assets.xcassets in Resources */,
+				8FCDA2761F12754500235225 /* scenario.json in Resources */,
 				652FC1D01EE7D47900A71789 /* Main.storyboard in Resources */,
 				6519F6C21EE8B35300BB8D4F /* container.bundle in Resources */,
 			);
@@ -214,8 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F83125D1F1E25C800DDBCA6 /* CustomizeCookieTableViewController.swift in Sources */,
+				8F83125F1F1E260B00DDBCA6 /* StartCookieViewController.swift in Sources */,
+				8F8312611F1E2A4F00DDBCA6 /* CookieDetailsTableViewController.swift in Sources */,
 				652FC1CD1EE7D47900A71789 /* ViewController.swift in Sources */,
 				652FC1CB1EE7D47900A71789 /* AppDelegate.swift in Sources */,
+				8FFDE9CB1F1E33B200FCCFBB /* OrderDoneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
