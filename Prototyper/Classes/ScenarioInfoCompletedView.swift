@@ -19,7 +19,7 @@ class ScenarioInfoCompletedView: ScenarioInfoView {
     init(scenarioStep: ScenarioStep?) {
         super.init(frame: CGRect.zero)
         
-        titleLabel.text = "Congratulations!\nYou've completed this scenario.\nDid you like the implementation of it?"
+        titleLabel.text = "Congratulations!\nYou've completed this scenario.\n\nRemember to answer all of the provided questions within the Prototyper button.\n\nDid you like the implementation of this scenario? "
         
         self.backgroundView.addSubview(feedbackBottomView)
         self.setConstraints()

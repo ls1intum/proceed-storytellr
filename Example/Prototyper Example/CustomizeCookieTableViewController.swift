@@ -96,6 +96,7 @@ class CustomizeCookieTableViewController: UITableViewController {
         if shouldEnableOrderButton {
             orderCookieButton.isUserInteractionEnabled = true
             orderCookieButton.isEnabled = true
+            orderCookieButton.alpha = 1.0
         }
     }
 }
