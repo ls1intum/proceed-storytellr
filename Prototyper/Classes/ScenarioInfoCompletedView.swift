@@ -19,7 +19,7 @@ class ScenarioInfoCompletedView: ScenarioInfoView {
     init(scenarioStep: ScenarioStep?) {
         super.init(frame: CGRect.zero)
         
-        titleLabel.text = "Congratulations!\nYou've completed this scenario.\nDid you like the implementation of it?"
+        titleLabel.text = "Congratulations!\nYou've completed this scenario.\n\n Remeber to answer all questions provided within the Prototyper button.\n\nDid you like the implementation of this scenario?"
         
         self.backgroundView.addSubview(feedbackBottomView)
         self.setConstraints()
@@ -35,8 +35,8 @@ class ScenarioInfoCompletedView: ScenarioInfoView {
         let viewsDictionary = ["completed": completedView, "title": titleLabel, "bottom" : feedbackBottomView] as [String : Any]
         
         //position constraints
-        let hConstraintCompleted = NSLayoutConstraint.constraints(withVisualFormat: "[completed(40)]", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: viewsDictionary)
-        let vConstraintsCompleted = NSLayoutConstraint.constraints(withVisualFormat: "V:|-[completed(40)]-25@999-[title]-25@999-[bottom]-|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: viewsDictionary)
+        let hConstraintCompleted = NSLayoutConstraint.constraints(withVisualFormat: "[completed(60)]", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: viewsDictionary)
+        let vConstraintsCompleted = NSLayoutConstraint.constraints(withVisualFormat: "V:|-[completed(60)]-25@999-[title]-25@999-[bottom]-|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: viewsDictionary)
         let titleConstraint = NSLayoutConstraint.constraints(withVisualFormat: "H:|-20-[title]-20-|",options: NSLayoutFormatOptions(rawValue: 0),metrics: nil, views: viewsDictionary)
         
         let centerCompletedX = NSLayoutConstraint(item: completedView, attribute:.centerX, relatedBy:.equal, toItem: backgroundView, attribute:.centerX, multiplier: 1.0, constant: 0.0)
