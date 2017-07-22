@@ -1,6 +1,10 @@
 PODS:
+  - jot (0.1.5):
+    - Masonry (~> 0.6.1)
   - KeychainSwift (8.0.2)
+  - Masonry (0.6.4)
   - Prototyper (1.0):
+    - jot (~> 0.1.5)
     - KeychainSwift
 
 DEPENDENCIES:
@@ -8,12 +12,14 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   Prototyper:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
+  jot: 0f5dc333defa6ad805d01adc3834b201c22510a7
   KeychainSwift: 213db04dfe7244988e61f77c72a2afb2f775954a
-  Prototyper: ba11c8125f588b3f1dfb62f16106ac690718c6dd
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  Prototyper: 0a948fde62c21b41794ecd328486a31c7d70b99d
 
-PODFILE CHECKSUM: e3d6dc21d83c3c73238a63d62557c0a1105415f4
+PODFILE CHECKSUM: 70c1fb0714ee18c29cbbfa305582eeb59752c7cb
 
 COCOAPODS: 1.2.1
