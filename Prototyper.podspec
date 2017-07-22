@@ -16,8 +16,9 @@ The Prototyper framework allows you to create a mix between app prototypes and r
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'Prototyper/Classes/**/*'
-  s.resources = 'Prototyper/Assets/*' 
+  s.resources = 'Prototyper/Assets/*'
 
+  s.dependency 'jot', '~> 0.1.5'
   s.dependency 'KeychainSwift'
 
 end
