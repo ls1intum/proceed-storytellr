@@ -1,25 +1,32 @@
 PODS:
+  - GCDWebServer (3.3.3):
+    - GCDWebServer/Core (= 3.3.3)
+  - GCDWebServer/Core (3.3.3)
   - jot (0.1.5):
     - Masonry (~> 0.6.1)
-  - KeychainSwift (8.0.2)
+  - KeychainSwift (7.0.0)
   - Masonry (0.6.4)
-  - Prototyper (1.0):
+  - NSHash (1.1.0)
+  - Prototyper (0.9.7):
+    - GCDWebServer (~> 3.3)
     - jot (~> 0.1.5)
-    - KeychainSwift
+    - KeychainSwift (~> 7.0)
+    - NSHash (~> 1.1)
+    - SSZipArchive (~> 1.6)
+  - SSZipArchive (1.8.1)
 
 DEPENDENCIES:
-  - Prototyper (from `../`)
-
-EXTERNAL SOURCES:
-  Prototyper:
-    :path: "../"
+  - Prototyper
 
 SPEC CHECKSUMS:
+  GCDWebServer: 1c39a1f0763e4eb492bee021e4270fce097d3555
   jot: 0f5dc333defa6ad805d01adc3834b201c22510a7
-  KeychainSwift: 213db04dfe7244988e61f77c72a2afb2f775954a
+  KeychainSwift: b6947435dd78cc442c64a84ae648dd0e871cf448
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
-  Prototyper: 0a948fde62c21b41794ecd328486a31c7d70b99d
+  NSHash: 61d598c6d48957c5557f1eef0aeafd6ef5ec5fb7
+  Prototyper: 14c1771190e56c1a32e4a7b566620d6e329dba14
+  SSZipArchive: 04547dfa448be5ed7ecbaf7eaf8a6e9eb9b42997
 
-PODFILE CHECKSUM: 70c1fb0714ee18c29cbbfa305582eeb59752c7cb
+PODFILE CHECKSUM: 9ac448269a7d309d5c592426ea4fa678c78df7a7
 
 COCOAPODS: 1.2.1
