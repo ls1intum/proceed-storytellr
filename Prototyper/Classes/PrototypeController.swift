@@ -49,13 +49,30 @@ open class PrototypeController: NSObject, ScenarioInfoViewControllerDelegate {
     // MARK: Feedback
     
     @objc func feedbackBubbleTouched() {
-        guard let rootViewController = Utils.getTopViewController() else { return }
+        /*guard let rootViewController = Utils.getTopViewController() else { return }
         
         let infoViewController = ScenarioInfoViewController(dataType: .Question, isLastStep: false)
         infoViewController.delegate = self
         
         infoViewController.modalPresentationStyle = .overFullScreen
         rootViewController.present(infoViewController, animated: true, completion: nil)
+        */
+        let actionSheet = UIAlertController(title: Texts.FeedbackActionSheet.Title, message: Texts.FeedbackActionSheet.Text, preferredStyle: .actionSheet)
+        actionSheet.popoverPresentationController?.sourceView = feedbackBubble
+        actionSheet.popoverPresentationController?.sourceRect = feedbackBubble.bounds
+        actionSheet.addAction(UIAlertAction(title: Texts.FeedbackActionSheet.WriteFeedback, style: .default) { _ in
+            self.showFeedbackView()
+        })
+        actionSheet.addAction(UIAlertAction(title: Texts.FeedbackActionSheet.ShareApp, style: .default) { _ in
+            self.shareApp()
+        })
+        actionSheet.addAction(UIAlertAction(title: Texts.FeedbackActionSheet.HideFeedbackBubble, style: .default) { _ in
+            self.hideFeedbackButton()
+        })
+        actionSheet.addAction(UIAlertAction(title: Texts.FeedbackActionSheet.Cancel, style: .cancel, handler: nil))
+        if let rootViewController = Utils.getTopViewController() {
+            rootViewController.present(actionSheet, animated: true, completion: nil)
+        }
     }
     
     func showFeedbackView() {

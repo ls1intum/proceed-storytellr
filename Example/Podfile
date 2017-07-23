@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '10.0’
 
 target 'Prototyper Example' do
-  pod 'Prototyper'
+  pod 'Prototyper', :path => '../'
 end
 
 

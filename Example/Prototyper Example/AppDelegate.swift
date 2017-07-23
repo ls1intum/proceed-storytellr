@@ -20,7 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         PrototypeController.sharedInstance.showFeedbackButton(true)
         
-        StoryTellrController.sharedInstance.filename = "scenario"
+        //StoryTellrController.sharedInstance.filename = "scenario"
+        StoryTellrController.sharedInstance.shouldShowScenarioSteps = false
         
         return true
     }

@@ -89,21 +89,15 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/GCDWebServer/GCDWebServer.framework"
   install_framework "$BUILT_PRODUCTS_DIR/KeychainSwift/KeychainSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Masonry/Masonry.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/NSHash/NSHash.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Prototyper/Prototyper.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SSZipArchive/SSZipArchive.framework"
   install_framework "$BUILT_PRODUCTS_DIR/jot/jot.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/GCDWebServer/GCDWebServer.framework"
   install_framework "$BUILT_PRODUCTS_DIR/KeychainSwift/KeychainSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Masonry/Masonry.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/NSHash/NSHash.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Prototyper/Prototyper.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SSZipArchive/SSZipArchive.framework"
   install_framework "$BUILT_PRODUCTS_DIR/jot/jot.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
