@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -194,12 +194,12 @@
 /* Begin PBXFileReference section */
 		0114C67DF0FAE9399BA229BE719EDAE5 /* jot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "jot-dummy.m"; sourceTree = "<group>"; };
 		02014B4F684FA4C81E8DC282DA315B89 /* delete_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "delete_icon@3x.png"; sourceTree = "<group>"; };
-		04D7D4C0E78FC7F2CF4C26999241D3C8 /* Pods-Prototyper Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Prototyper Example.modulemap"; sourceTree = "<group>"; };
+		04D7D4C0E78FC7F2CF4C26999241D3C8 /* Pods-Prototyper Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Prototyper Example.modulemap"; sourceTree = "<group>"; };
 		051D7DF5D99269C1151A295B3A076B77 /* feedback.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = feedback.png; sourceTree = "<group>"; };
 		06332D773B127FA65D9E7608391560C4 /* Pods-Prototyper Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Prototyper Example-resources.sh"; sourceTree = "<group>"; };
 		068C6536D910EB6EB28F0CC344EFFF09 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		0712E78FDE0980D6ED4DAF1BEEAB4910 /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
-		075880B9F5D8512F0D2496B523A75BCD /* Pods_Prototyper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Prototyper_Example.framework; path = "Pods-Prototyper Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		075880B9F5D8512F0D2496B523A75BCD /* Pods_Prototyper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prototyper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D4C4D8AC70974EAB0FD5AF104B84F9 /* ScenarioInfoCompletedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScenarioInfoCompletedView.swift; sourceTree = "<group>"; };
 		097D30062B4FC233B041355074AD0CDD /* StoryTellrController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoryTellrController.swift; sourceTree = "<group>"; };
 		0A6F1C6266ACCD6B5DB4B71D82655BC4 /* JotDrawView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JotDrawView.m; path = jot/JotDrawView.m; sourceTree = "<group>"; };
@@ -234,12 +234,12 @@
 		41D6990F06DCF3D21D14A018936BAA87 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		43DA63ED870729DE84F89173E617050E /* share@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
 		488F13C268F73D7B04729592A589581C /* jot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jot-umbrella.h"; sourceTree = "<group>"; };
-		49222E5151942FB2ABFA963FEADA9939 /* jot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = jot.modulemap; sourceTree = "<group>"; };
+		49222E5151942FB2ABFA963FEADA9939 /* jot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = jot.modulemap; sourceTree = "<group>"; };
 		4CA2FB8849A4DF5477B6A8FD5BA39514 /* NSError+APIHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSError+APIHandler.swift"; sourceTree = "<group>"; };
 		4CCE5D761FFBA3E8AF6075079FEB0B95 /* Pods-Prototyper Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Prototyper Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4DB35084DAA1CAA9385EC802315CC6E2 /* Prototype.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		4DFA7716A0F47D73F1930BC905CC0256 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		4F5A2F543851B9205A9D9756CFE13D32 /* Prototyper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Prototyper.modulemap; sourceTree = "<group>"; };
+		4F5A2F543851B9205A9D9756CFE13D32 /* Prototyper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Prototyper.modulemap; sourceTree = "<group>"; };
 		50B8750D0F78D43BE485F76559AF89F2 /* Pods-Prototyper Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Prototyper Example-umbrella.h"; sourceTree = "<group>"; };
 		52A278600F437550B36DD70668E147D5 /* JotViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JotViewController.h; path = jot/JotViewController.h; sourceTree = "<group>"; };
 		547A8AB646D253DE1D54EEDAED8A6FA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -253,7 +253,7 @@
 		5C86F44AAD5AD96EE9832906AAC2E290 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		5CF18F5AC3031405147AA067EDA7DA92 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		5D8465D16E08EC4CEB6D84BD11C7FBFE /* feedback_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "feedback_icon@2x.png"; sourceTree = "<group>"; };
-		603DD1B04819F7C5710861CEAAA191AE /* jot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = jot.framework; path = jot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		603DD1B04819F7C5710861CEAAA191AE /* jot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		623619678F834A7E9F3D72BA300BA77F /* jot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		635B8157FC4701265132B3FFB68AF0A8 /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
 		63AFD6393F187229813F4508D008DFDA /* APIHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
@@ -270,7 +270,7 @@
 		78223A4FF77E3B0F2E53F4FC1443FA07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7836009C713D39D24278C0A1030E48DD /* FeedbackBubble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedbackBubble.swift; sourceTree = "<group>"; };
 		799629D98B18A0A74B4C3F884ECF06F1 /* storytellr_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = storytellr_icon.png; sourceTree = "<group>"; };
-		7A4AD9A03E223A4EC4866ACE7B97E318 /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainSwift.framework; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4AD9A03E223A4EC4866ACE7B97E318 /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF0D31545193A860D3C508D441E1715 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		808B71B2ABECDFBF7FE97797013BA69D /* PrototypeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrototypeController.swift; sourceTree = "<group>"; };
 		819F27FD9FF57CB7BC770BE69781EC74 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
@@ -281,7 +281,7 @@
 		862D5BD969D3CED1489ED635872F45CE /* Prototyper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prototyper-prefix.pch"; sourceTree = "<group>"; };
 		91A8EF4575BB2317561E3EAA39128432 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		93048D1B62D72359B61B5CB5B538DEFE /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93BC5D9F3A6F45E687305554C3DDC512 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		95BE23EAFE5E757719F40FBA6A50BC99 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		96E4E532ABC6E40EED89B8C19F67999D /* JotTextEditView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JotTextEditView.m; path = jot/JotTextEditView.m; sourceTree = "<group>"; };
@@ -295,7 +295,7 @@
 		A6BA5005D0F5ACF7C95735782CE7F54A /* delete_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = delete_icon.png; sourceTree = "<group>"; };
 		A6F80652DCD51C14439AF9290B62AC27 /* dismiss.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dismiss.png; sourceTree = "<group>"; };
 		A78127992CD46377698162493C6BFD21 /* LoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		A92ED9639F5265F21066BD43531791F9 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92ED9639F5265F21066BD43531791F9 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96E7A21A12936498A251279CE9D7B98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABCFBFD89BAF3B7D7612F498D35DE0FB /* check.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
 		AFB20E68C03C7D99C7E19105616C1869 /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
@@ -324,8 +324,8 @@
 		DB41BBCCDD06BE7EE3D91F62C0E8F751 /* JotTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JotTextView.m; path = jot/JotTextView.m; sourceTree = "<group>"; };
 		DDDA7ACC7FE3D77B77D37D9513BCE287 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF628B24331169EE40A133428ECBC0A0 /* PrototypeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrototypeView.swift; sourceTree = "<group>"; };
-		E0E297A34336507034C973F065FC1E7C /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
-		EA0AB3057A36F5113AC65ED324367BD5 /* Prototyper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Prototyper.framework; path = Prototyper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E297A34336507034C973F065FC1E7C /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
+		EA0AB3057A36F5113AC65ED324367BD5 /* Prototyper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prototyper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB63AEF30C3833B27EE3A991CBF88D8D /* UIImage+Jot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Jot.m"; path = "jot/UIImage+Jot.m"; sourceTree = "<group>"; };
 		EB6DCBF70A37DC62C57FE71E4CC9526C /* dismiss@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dismiss@3x.png"; sourceTree = "<group>"; };
 		ED797FD0A5CCD4AA5B1F15224C48C66C /* storytellr_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "storytellr_icon@3x.png"; sourceTree = "<group>"; };
@@ -336,7 +336,7 @@
 		F71C9421B6F3EE41E57323852303BBAB /* cancel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
 		F800F4029EFB437392B9918935E03318 /* ScenarioInfoQuestionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScenarioInfoQuestionView.swift; sourceTree = "<group>"; };
 		F985029BBF373F6BC42E7CDEB7DC7ED2 /* Pods-Prototyper Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Prototyper Example-dummy.m"; sourceTree = "<group>"; };
-		F9BDC419CF7B5FFB6D64B80AE0B47F57 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Masonry.modulemap; sourceTree = "<group>"; };
+		F9BDC419CF7B5FFB6D64B80AE0B47F57 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Masonry.modulemap; sourceTree = "<group>"; };
 		FB6A56C0001A3BF8FBEBFA224AC4FDD2 /* jot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jot.h; path = jot/jot.h; sourceTree = "<group>"; };
 		FEDE1046D930F3BFE910A292F722AA9C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -446,7 +446,6 @@
 				57B97780C2C7C6E65BBFDCBBA7324BFF /* storytellr_icon@2x.png */,
 				ED797FD0A5CCD4AA5B1F15224C48C66C /* storytellr_icon@3x.png */,
 			);
-			name = Assets;
 			path = Assets;
 			sourceTree = "<group>";
 		};
@@ -458,7 +457,6 @@
 				6AB4CAF460781C1C970A56FCBB554204 /* TegKeychainConstants.swift */,
 				3941F12B2FC4E63C2DD8BF5D7F0D4DFC /* Support Files */,
 			);
-			name = KeychainSwift;
 			path = KeychainSwift;
 			sourceTree = "<group>";
 		};
@@ -506,7 +504,6 @@
 				F22ECC39714349F712AA7CD774D8017D /* ViewController+MASAdditions.m */,
 				5626C7289A57D0959737282E91926B03 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -600,7 +597,6 @@
 				C23005CE502C07D8C23CB4AE56A41796 /* UIWindow+Snaphot.swift */,
 				4DFA7716A0F47D73F1930BC905CC0256 /* Utils.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -609,7 +605,6 @@
 			children = (
 				7446905CFD98FC1BF69A5020DFF97A9C /* Classes */,
 			);
-			name = Prototyper;
 			path = Prototyper;
 			sourceTree = "<group>";
 		};
@@ -656,7 +651,6 @@
 			children = (
 				2413000FBCC909211B49299B359736DD /* Assets */,
 			);
-			name = Prototyper;
 			path = Prototyper;
 			sourceTree = "<group>";
 		};
@@ -701,7 +695,6 @@
 				EB63AEF30C3833B27EE3A991CBF88D8D /* UIImage+Jot.m */,
 				5CB711A55612836A45283F0E33833AF1 /* Support Files */,
 			);
-			name = jot;
 			path = jot;
 			sourceTree = "<group>";
 		};
@@ -894,6 +887,17 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					2C74EF3B5E71A03BA572CA751CDBBD29 = {
+						ProvisioningStyle = Automatic;
+					};
+					48CC5F0F860DB029BA67AABDA83833C7 = {
+						ProvisioningStyle = Automatic;
+					};
+					9419B29E107DA68148FED859CD743911 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -971,7 +975,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "mkdir -p $PODS_CONFIGURATION_BUILD_DIR/KeychainSwift";
-			showEnvVarsInLog = 1;
 		};
 		110997619709810782872E0E2A25458C /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -985,7 +988,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "mkdir -p $PODS_CONFIGURATION_BUILD_DIR/jot";
-			showEnvVarsInLog = 1;
 		};
 		2A41D4CDD137F29742AA5CA356CA8C01 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -999,7 +1001,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "mkdir -p $PODS_CONFIGURATION_BUILD_DIR/Prototyper";
-			showEnvVarsInLog = 1;
 		};
 		45BEFDDE8A52E390A1199A8D4618373E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1013,7 +1014,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "mkdir -p $PODS_CONFIGURATION_BUILD_DIR/Masonry";
-			showEnvVarsInLog = 1;
 		};
 		63437DF4EF2B631EEE8090D91B9D1DE9 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1027,7 +1027,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "mkdir -p $PODS_CONFIGURATION_BUILD_DIR/Pods-Prototyper Example";
-			showEnvVarsInLog = 1;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1182,12 +1181,14 @@
 				);
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1201,6 +1202,7 @@
 				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = KeychainSwift;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1223,7 +1225,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -1304,12 +1306,14 @@
 				);
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1323,6 +1327,7 @@
 				MODULEMAP_FILE = "Target Support Files/jot/jot.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = jot;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1344,7 +1349,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -1388,7 +1393,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -1426,12 +1431,14 @@
 				);
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1445,6 +1452,7 @@
 				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = KeychainSwift;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1514,12 +1522,14 @@
 				);
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1533,6 +1543,7 @@
 				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Masonry;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1554,7 +1565,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -1595,12 +1606,14 @@
 				);
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1614,6 +1627,7 @@
 				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Masonry;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1633,12 +1647,14 @@
 				);
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1652,6 +1668,7 @@
 				MODULEMAP_FILE = "Target Support Files/jot/jot.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = jot;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
