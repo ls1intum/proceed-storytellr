@@ -94,7 +94,7 @@ class ScenarioInfoQuestionView: ScenarioInfoView {
         label.text = "Give\nFeedback"
         label.textAlignment = .center
         label.font = UIFont.systemFont(ofSize: 9.0)
-        label.textColor = UIColor.init(colorLiteralRed: 3.0/255.0, green: 101.0/255.0, blue: 192.0/255.0, alpha: 1.0)
+        label.textColor = PrototypeUI.ButtonColor
         label.backgroundColor = UIColor.clear
         label.numberOfLines = 0
         
@@ -131,7 +131,7 @@ class ScenarioInfoQuestionView: ScenarioInfoView {
         label.text = "Help"
         label.textAlignment = .center
         label.font = UIFont.systemFont(ofSize: 9.0)
-        label.textColor = UIColor.init(colorLiteralRed: 3.0/255.0, green: 101.0/255.0, blue: 192.0/255.0, alpha: 1.0)
+        label.textColor = PrototypeUI.ButtonColor
         label.backgroundColor = UIColor.clear
         
         view.addSubview(button)
@@ -171,7 +171,7 @@ class ScenarioInfoQuestionView: ScenarioInfoView {
         shareButton.titleLabel?.font = UIFont.systemFont(ofSize: 15.0)
         shareButton.setImage(UIImage(named: "share", in: Bundle(for: LoginViewController.self), compatibleWith: nil), for: .normal)
         shareButton.setTitle("Share App", for: .normal)
-        shareButton.setTitleColor(UIColor.init(colorLiteralRed: 3.0/255.0, green: 101.0/255.0, blue: 192.0/255.0, alpha: 1.0), for: .normal)
+        shareButton.setTitleColor(PrototypeUI.ButtonColor, for: .normal)
         shareButton.addTarget(self, action: #selector(didTapShare), for: .touchUpInside)
         
         let dismissButton = UIButton()
@@ -179,7 +179,7 @@ class ScenarioInfoQuestionView: ScenarioInfoView {
         dismissButton.setImage(UIImage(named: "dismiss", in: Bundle(for: LoginViewController.self), compatibleWith: nil), for: .normal)
         dismissButton.titleLabel?.font = UIFont.systemFont(ofSize: 15.0)
         dismissButton.setTitle("Dismiss StoryTellr", for: .normal)
-        dismissButton.setTitleColor(UIColor.init(colorLiteralRed: 3.0/255.0, green: 101.0/255.0, blue: 192.0/255.0, alpha: 1.0), for: .normal)
+        dismissButton.setTitleColor(PrototypeUI.ButtonColor, for: .normal)
         dismissButton.addTarget(self, action: #selector(didTapDismissButton), for: .touchUpInside)
         
         view.addSubview(shareButton)
