@@ -13,7 +13,6 @@
 		652FC1D01EE7D47900A71789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652FC1CE1EE7D47900A71789 /* Main.storyboard */; };
 		652FC1D21EE7D47900A71789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652FC1D11EE7D47900A71789 /* Assets.xcassets */; };
 		652FC1D51EE7D47900A71789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652FC1D31EE7D47900A71789 /* LaunchScreen.storyboard */; };
-		6F5473EE3373FC627A273220 /* Pods_Prototyper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6F9E8F364E53C77F1182FD /* Pods_Prototyper_Example.framework */; };
 		8F83125D1F1E25C800DDBCA6 /* CustomizeCookieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F83125C1F1E25C800DDBCA6 /* CustomizeCookieTableViewController.swift */; };
 		8F83125F1F1E260B00DDBCA6 /* StartCookieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F83125E1F1E260B00DDBCA6 /* StartCookieViewController.swift */; };
 		8F8312611F1E2A4F00DDBCA6 /* CookieDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8312601F1E2A4F00DDBCA6 /* CookieDetailsTableViewController.swift */; };
@@ -45,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F5473EE3373FC627A273220 /* Pods_Prototyper_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
