@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FE502CD624B17634DBA357D /* Pods_Prototyper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6F9E8F364E53C77F1182FD /* Pods_Prototyper_Example.framework */; };
 		6519F6C21EE8B35300BB8D4F /* container.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6519F6C11EE8B35200BB8D4F /* container.bundle */; };
 		652FC1CB1EE7D47900A71789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652FC1CA1EE7D47900A71789 /* AppDelegate.swift */; };
 		652FC1CD1EE7D47900A71789 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652FC1CC1EE7D47900A71789 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE502CD624B17634DBA357D /* Pods_Prototyper_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +377,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WCM2L8RG39;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/KeychainSwift\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Masonry\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/jot\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Prototyper\"",
+				);
 				INFOPLIST_FILE = "Prototyper Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -395,7 +403,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WCM2L8RG39;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$PODS_CONFIGURATION_BUILD_DIR/KeychainSwift\" \"$PODS_CONFIGURATION_BUILD_DIR/Prototyper\" \"$PODS_CONFIGURATION_BUILD_DIR/Masonry\" \"$PODS_CONFIGURATION_BUILD_DIR/jot\"",
+				);
 				INFOPLIST_FILE = "Prototyper Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
