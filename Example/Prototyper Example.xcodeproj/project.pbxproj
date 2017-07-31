@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FE502CD624B17634DBA357D /* Pods_Prototyper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6F9E8F364E53C77F1182FD /* Pods_Prototyper_Example.framework */; };
 		6519F6C21EE8B35300BB8D4F /* container.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6519F6C11EE8B35200BB8D4F /* container.bundle */; };
 		652FC1CB1EE7D47900A71789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652FC1CA1EE7D47900A71789 /* AppDelegate.swift */; };
 		652FC1CD1EE7D47900A71789 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652FC1CC1EE7D47900A71789 /* ViewController.swift */; };
 		652FC1D01EE7D47900A71789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652FC1CE1EE7D47900A71789 /* Main.storyboard */; };
 		652FC1D21EE7D47900A71789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652FC1D11EE7D47900A71789 /* Assets.xcassets */; };
 		652FC1D51EE7D47900A71789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652FC1D31EE7D47900A71789 /* LaunchScreen.storyboard */; };
-		6F5473EE3373FC627A273220 /* Pods_Prototyper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6F9E8F364E53C77F1182FD /* Pods_Prototyper_Example.framework */; };
 		8F83125D1F1E25C800DDBCA6 /* CustomizeCookieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F83125C1F1E25C800DDBCA6 /* CustomizeCookieTableViewController.swift */; };
 		8F83125F1F1E260B00DDBCA6 /* StartCookieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F83125E1F1E260B00DDBCA6 /* StartCookieViewController.swift */; };
 		8F8312611F1E2A4F00DDBCA6 /* CookieDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8312601F1E2A4F00DDBCA6 /* CookieDetailsTableViewController.swift */; };
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F5473EE3373FC627A273220 /* Pods_Prototyper_Example.framework in Frameworks */,
+				5FE502CD624B17634DBA357D /* Pods_Prototyper_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +141,7 @@
 				TargetAttributes = {
 					652FC1C61EE7D47900A71789 = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -309,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -360,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -373,12 +374,22 @@
 			baseConfigurationReference = F9611811A2E79F89C886A9E9 /* Pods-Prototyper Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WCM2L8RG39;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					$PODS_CONFIGURATION_BUILD_DIR/KeychainSwift,
+					$PODS_CONFIGURATION_BUILD_DIR/Masonry,
+					$PODS_CONFIGURATION_BUILD_DIR/jot,
+					$PODS_CONFIGURATION_BUILD_DIR/Prototyper,
+				);
 				INFOPLIST_FILE = "Prototyper Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.tum.in.www1.prototyper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -389,12 +400,22 @@
 			baseConfigurationReference = 64BA04864A977251417E1D64 /* Pods-Prototyper Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WCM2L8RG39;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					$PODS_CONFIGURATION_BUILD_DIR/KeychainSwift,
+					$PODS_CONFIGURATION_BUILD_DIR/jot,
+					$PODS_CONFIGURATION_BUILD_DIR/Prototyper,
+					$PODS_CONFIGURATION_BUILD_DIR/Masonry,
+				);
 				INFOPLIST_FILE = "Prototyper Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.tum.in.www1.prototyper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

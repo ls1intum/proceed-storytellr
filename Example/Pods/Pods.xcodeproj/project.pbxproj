@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -194,12 +194,12 @@
 /* Begin PBXFileReference section */
 		0114C67DF0FAE9399BA229BE719EDAE5 /* jot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "jot-dummy.m"; sourceTree = "<group>"; };
 		02014B4F684FA4C81E8DC282DA315B89 /* delete_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "delete_icon@3x.png"; sourceTree = "<group>"; };
-		04D7D4C0E78FC7F2CF4C26999241D3C8 /* Pods-Prototyper Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Prototyper Example.modulemap"; sourceTree = "<group>"; };
+		04D7D4C0E78FC7F2CF4C26999241D3C8 /* Pods-Prototyper Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Prototyper Example.modulemap"; sourceTree = "<group>"; };
 		051D7DF5D99269C1151A295B3A076B77 /* feedback.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = feedback.png; sourceTree = "<group>"; };
 		06332D773B127FA65D9E7608391560C4 /* Pods-Prototyper Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Prototyper Example-resources.sh"; sourceTree = "<group>"; };
 		068C6536D910EB6EB28F0CC344EFFF09 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		0712E78FDE0980D6ED4DAF1BEEAB4910 /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
-		075880B9F5D8512F0D2496B523A75BCD /* Pods_Prototyper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Prototyper_Example.framework; path = "Pods-Prototyper Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		075880B9F5D8512F0D2496B523A75BCD /* Pods_Prototyper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prototyper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D4C4D8AC70974EAB0FD5AF104B84F9 /* ScenarioInfoCompletedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScenarioInfoCompletedView.swift; sourceTree = "<group>"; };
 		097D30062B4FC233B041355074AD0CDD /* StoryTellrController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoryTellrController.swift; sourceTree = "<group>"; };
 		0A6F1C6266ACCD6B5DB4B71D82655BC4 /* JotDrawView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JotDrawView.m; path = jot/JotDrawView.m; sourceTree = "<group>"; };
@@ -234,12 +234,12 @@
 		41D6990F06DCF3D21D14A018936BAA87 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		43DA63ED870729DE84F89173E617050E /* share@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
 		488F13C268F73D7B04729592A589581C /* jot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jot-umbrella.h"; sourceTree = "<group>"; };
-		49222E5151942FB2ABFA963FEADA9939 /* jot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = jot.modulemap; sourceTree = "<group>"; };
+		49222E5151942FB2ABFA963FEADA9939 /* jot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = jot.modulemap; sourceTree = "<group>"; };
 		4CA2FB8849A4DF5477B6A8FD5BA39514 /* NSError+APIHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSError+APIHandler.swift"; sourceTree = "<group>"; };
 		4CCE5D761FFBA3E8AF6075079FEB0B95 /* Pods-Prototyper Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Prototyper Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4DB35084DAA1CAA9385EC802315CC6E2 /* Prototype.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		4DFA7716A0F47D73F1930BC905CC0256 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		4F5A2F543851B9205A9D9756CFE13D32 /* Prototyper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Prototyper.modulemap; sourceTree = "<group>"; };
+		4F5A2F543851B9205A9D9756CFE13D32 /* Prototyper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Prototyper.modulemap; sourceTree = "<group>"; };
 		50B8750D0F78D43BE485F76559AF89F2 /* Pods-Prototyper Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Prototyper Example-umbrella.h"; sourceTree = "<group>"; };
 		52A278600F437550B36DD70668E147D5 /* JotViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JotViewController.h; path = jot/JotViewController.h; sourceTree = "<group>"; };
 		547A8AB646D253DE1D54EEDAED8A6FA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -253,7 +253,7 @@
 		5C86F44AAD5AD96EE9832906AAC2E290 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		5CF18F5AC3031405147AA067EDA7DA92 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		5D8465D16E08EC4CEB6D84BD11C7FBFE /* feedback_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "feedback_icon@2x.png"; sourceTree = "<group>"; };
-		603DD1B04819F7C5710861CEAAA191AE /* jot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = jot.framework; path = jot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		603DD1B04819F7C5710861CEAAA191AE /* jot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		623619678F834A7E9F3D72BA300BA77F /* jot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		635B8157FC4701265132B3FFB68AF0A8 /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
 		63AFD6393F187229813F4508D008DFDA /* APIHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
@@ -270,7 +270,7 @@
 		78223A4FF77E3B0F2E53F4FC1443FA07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7836009C713D39D24278C0A1030E48DD /* FeedbackBubble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedbackBubble.swift; sourceTree = "<group>"; };
 		799629D98B18A0A74B4C3F884ECF06F1 /* storytellr_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = storytellr_icon.png; sourceTree = "<group>"; };
-		7A4AD9A03E223A4EC4866ACE7B97E318 /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainSwift.framework; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4AD9A03E223A4EC4866ACE7B97E318 /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF0D31545193A860D3C508D441E1715 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		808B71B2ABECDFBF7FE97797013BA69D /* PrototypeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrototypeController.swift; sourceTree = "<group>"; };
 		819F27FD9FF57CB7BC770BE69781EC74 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
@@ -281,7 +281,7 @@
 		862D5BD969D3CED1489ED635872F45CE /* Prototyper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prototyper-prefix.pch"; sourceTree = "<group>"; };
 		91A8EF4575BB2317561E3EAA39128432 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		93048D1B62D72359B61B5CB5B538DEFE /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93BC5D9F3A6F45E687305554C3DDC512 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		95BE23EAFE5E757719F40FBA6A50BC99 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		96E4E532ABC6E40EED89B8C19F67999D /* JotTextEditView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JotTextEditView.m; path = jot/JotTextEditView.m; sourceTree = "<group>"; };
@@ -295,7 +295,7 @@
 		A6BA5005D0F5ACF7C95735782CE7F54A /* delete_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = delete_icon.png; sourceTree = "<group>"; };
 		A6F80652DCD51C14439AF9290B62AC27 /* dismiss.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dismiss.png; sourceTree = "<group>"; };
 		A78127992CD46377698162493C6BFD21 /* LoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		A92ED9639F5265F21066BD43531791F9 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92ED9639F5265F21066BD43531791F9 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96E7A21A12936498A251279CE9D7B98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABCFBFD89BAF3B7D7612F498D35DE0FB /* check.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
 		AFB20E68C03C7D99C7E19105616C1869 /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
@@ -324,8 +324,8 @@
 		DB41BBCCDD06BE7EE3D91F62C0E8F751 /* JotTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JotTextView.m; path = jot/JotTextView.m; sourceTree = "<group>"; };
 		DDDA7ACC7FE3D77B77D37D9513BCE287 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF628B24331169EE40A133428ECBC0A0 /* PrototypeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrototypeView.swift; sourceTree = "<group>"; };
-		E0E297A34336507034C973F065FC1E7C /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
-		EA0AB3057A36F5113AC65ED324367BD5 /* Prototyper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Prototyper.framework; path = Prototyper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E297A34336507034C973F065FC1E7C /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
+		EA0AB3057A36F5113AC65ED324367BD5 /* Prototyper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prototyper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB63AEF30C3833B27EE3A991CBF88D8D /* UIImage+Jot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Jot.m"; path = "jot/UIImage+Jot.m"; sourceTree = "<group>"; };
 		EB6DCBF70A37DC62C57FE71E4CC9526C /* dismiss@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dismiss@3x.png"; sourceTree = "<group>"; };
 		ED797FD0A5CCD4AA5B1F15224C48C66C /* storytellr_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "storytellr_icon@3x.png"; sourceTree = "<group>"; };
@@ -336,7 +336,7 @@
 		F71C9421B6F3EE41E57323852303BBAB /* cancel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
 		F800F4029EFB437392B9918935E03318 /* ScenarioInfoQuestionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScenarioInfoQuestionView.swift; sourceTree = "<group>"; };
 		F985029BBF373F6BC42E7CDEB7DC7ED2 /* Pods-Prototyper Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Prototyper Example-dummy.m"; sourceTree = "<group>"; };
-		F9BDC419CF7B5FFB6D64B80AE0B47F57 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Masonry.modulemap; sourceTree = "<group>"; };
+		F9BDC419CF7B5FFB6D64B80AE0B47F57 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Masonry.modulemap; sourceTree = "<group>"; };
 		FB6A56C0001A3BF8FBEBFA224AC4FDD2 /* jot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jot.h; path = jot/jot.h; sourceTree = "<group>"; };
 		FEDE1046D930F3BFE910A292F722AA9C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -446,7 +446,6 @@
 				57B97780C2C7C6E65BBFDCBBA7324BFF /* storytellr_icon@2x.png */,
 				ED797FD0A5CCD4AA5B1F15224C48C66C /* storytellr_icon@3x.png */,
 			);
-			name = Assets;
 			path = Assets;
 			sourceTree = "<group>";
 		};
@@ -458,7 +457,6 @@
 				6AB4CAF460781C1C970A56FCBB554204 /* TegKeychainConstants.swift */,
 				3941F12B2FC4E63C2DD8BF5D7F0D4DFC /* Support Files */,
 			);
-			name = KeychainSwift;
 			path = KeychainSwift;
 			sourceTree = "<group>";
 		};
@@ -506,7 +504,6 @@
 				F22ECC39714349F712AA7CD774D8017D /* ViewController+MASAdditions.m */,
 				5626C7289A57D0959737282E91926B03 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -600,7 +597,6 @@
 				C23005CE502C07D8C23CB4AE56A41796 /* UIWindow+Snaphot.swift */,
 				4DFA7716A0F47D73F1930BC905CC0256 /* Utils.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -609,7 +605,6 @@
 			children = (
 				7446905CFD98FC1BF69A5020DFF97A9C /* Classes */,
 			);
-			name = Prototyper;
 			path = Prototyper;
 			sourceTree = "<group>";
 		};
@@ -656,7 +651,6 @@
 			children = (
 				2413000FBCC909211B49299B359736DD /* Assets */,
 			);
-			name = Prototyper;
 			path = Prototyper;
 			sourceTree = "<group>";
 		};
@@ -701,7 +695,6 @@
 				EB63AEF30C3833B27EE3A991CBF88D8D /* UIImage+Jot.m */,
 				5CB711A55612836A45283F0E33833AF1 /* Support Files */,
 			);
-			name = jot;
 			path = jot;
 			sourceTree = "<group>";
 		};
@@ -971,7 +964,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "mkdir -p $PODS_CONFIGURATION_BUILD_DIR/KeychainSwift";
-			showEnvVarsInLog = 1;
 		};
 		110997619709810782872E0E2A25458C /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -985,7 +977,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "mkdir -p $PODS_CONFIGURATION_BUILD_DIR/jot";
-			showEnvVarsInLog = 1;
 		};
 		2A41D4CDD137F29742AA5CA356CA8C01 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -999,7 +990,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "mkdir -p $PODS_CONFIGURATION_BUILD_DIR/Prototyper";
-			showEnvVarsInLog = 1;
 		};
 		45BEFDDE8A52E390A1199A8D4618373E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1013,7 +1003,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "mkdir -p $PODS_CONFIGURATION_BUILD_DIR/Masonry";
-			showEnvVarsInLog = 1;
 		};
 		63437DF4EF2B631EEE8090D91B9D1DE9 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1027,7 +1016,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "mkdir -p $PODS_CONFIGURATION_BUILD_DIR/Pods-Prototyper Example";
-			showEnvVarsInLog = 1;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1172,15 +1160,19 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0EC4D6ACB19F0D8D4C01F8CD99B6836B /* Release */ = {
+		0B26FBBBA7975018AC5C44525BA2A282 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7DCC1B3EA1553D6C9440BADFA4ABDC3 /* Prototyper.xcconfig */;
+			baseConfigurationReference = 64524164ACE63BA454379D1A4A21EEE4 /* KeychainSwift.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -1188,6 +1180,51 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0EAFC1E4BC52C0C14448CA01A27FCFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DCC1B3EA1553D6C9440BADFA4ABDC3 /* Prototyper.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					$PODS_CONFIGURATION_BUILD_DIR/KeychainSwift,
+					$PODS_CONFIGURATION_BUILD_DIR/Masonry,
+					$PODS_CONFIGURATION_BUILD_DIR/jot,
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Prototyper/Prototyper-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Prototyper/Info.plist";
@@ -1207,56 +1244,74 @@
 			};
 			name = Release;
 		};
-		164CB8C8902D01C67B484845ABAF208F /* Debug */ = {
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EF0D31545193A860D3C508D441E1715 /* Masonry.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		3A14F7219753DCC5A04A2FA4E0C77136 /* Debug */ = {
+		1AEF768EE9C1CA20CE5D6446852A38D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0FC715B2CEF9FD68A11B4230DE07CFA /* jot.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					$PODS_CONFIGURATION_BUILD_DIR/Masonry,
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/jot/jot-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/jot/Info.plist";
@@ -1264,7 +1319,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/jot/jot.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = jot;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1273,56 +1328,21 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		3DD582076023D9CE2E7F2BAEA6CA05D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6661723373DD7A987A12F73E694D3757 /* Pods-Prototyper Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Prototyper Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Prototyper Example/Pods-Prototyper Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Prototyper_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
 			name = Release;
 		};
-		3E31BBECBC5D2976A64969461A18CE53 /* Debug */ = {
+		465BA508AFEB99ABCEA708DF174EA8F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 331F7C7A7BA07D53596F70657534BD85 /* Pods-Prototyper Example.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -1330,10 +1350,17 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					$PODS_CONFIGURATION_BUILD_DIR/KeychainSwift,
+					$PODS_CONFIGURATION_BUILD_DIR/Masonry,
+					$PODS_CONFIGURATION_BUILD_DIR/Prototyper,
+					$PODS_CONFIGURATION_BUILD_DIR/jot,
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Prototyper Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Prototyper Example/Pods-Prototyper Example.modulemap";
@@ -1354,15 +1381,19 @@
 			};
 			name = Debug;
 		};
-		56BF913F47A17EDECF88C1B726B207C2 /* Debug */ = {
+		6CFB75AC879D0E52881E33D7DA26819F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B7DCC1B3EA1553D6C9440BADFA4ABDC3 /* Prototyper.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -1370,6 +1401,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					$PODS_CONFIGURATION_BUILD_DIR/KeychainSwift,
+					$PODS_CONFIGURATION_BUILD_DIR/Masonry,
+					$PODS_CONFIGURATION_BUILD_DIR/jot,
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Prototyper/Prototyper-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Prototyper/Info.plist";
@@ -1390,7 +1427,47 @@
 			};
 			name = Debug;
 		};
-		643C76AA582046977B7877822ED7A258 /* Debug */ = {
+		6D42AADDE627CAA9326B26562C62C4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64524164ACE63BA454379D1A4A21EEE4 /* KeychainSwift.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D144F724433A09597E3476A57631255 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1430,7 +1507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -1438,15 +1515,100 @@
 			};
 			name = Debug;
 		};
-		75B5938B94D945B92E31491FA25AD3C2 /* Release */ = {
+		AAD8B7FC4AD5823F910CFEF6E44AEA03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7EF0D31545193A860D3C508D441E1715 /* Masonry.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6A7BB71BF8BA3BABE457834C6461E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6661723373DD7A987A12F73E694D3757 /* Pods-Prototyper Example.release.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Prototyper Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Prototyper Example/Pods-Prototyper Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Prototyper_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCF3C91F11403080AD529F3254A1DB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF0D31545193A860D3C508D441E1715 /* Masonry.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -1472,128 +1634,19 @@
 			};
 			name = Release;
 		};
-		90A25500403174C7EA2757E915E3B5DF /* Release */ = {
+		E7D2F251912852D821B2EE4F544AD8A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0FC715B2CEF9FD68A11B4230DE07CFA /* jot.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/jot/jot-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/jot/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/jot/jot.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = jot;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9EE52C0E7D02352BD11F5EDBE49CFCF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64524164ACE63BA454379D1A4A21EEE4 /* KeychainSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = KeychainSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C03B8870130C98D1B02B59D003687524 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
+				ARCHS = (
+					armv7,
+					arm64,
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CD9B79749EE5846A57CBF7CA081D13A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64524164ACE63BA454379D1A4A21EEE4 /* KeychainSwift.xcconfig */;
-			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CONFIGURATION_BUILD_DIR = "$PODS_CONFIGURATION_BUILD_DIR";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -1601,19 +1654,21 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					$PODS_CONFIGURATION_BUILD_DIR/Masonry,
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/jot/jot-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/jot/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				MODULEMAP_FILE = "Target Support Files/jot/jot.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KeychainSwift;
+				PRODUCT_NAME = jot;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1627,8 +1682,8 @@
 		05FAD2B6B6286E2DA6F51C48C32D3293 /* Build configuration list for PBXNativeTarget "jot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A14F7219753DCC5A04A2FA4E0C77136 /* Debug */,
-				90A25500403174C7EA2757E915E3B5DF /* Release */,
+				E7D2F251912852D821B2EE4F544AD8A9 /* Debug */,
+				1AEF768EE9C1CA20CE5D6446852A38D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1636,8 +1691,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				643C76AA582046977B7877822ED7A258 /* Debug */,
-				C03B8870130C98D1B02B59D003687524 /* Release */,
+				7D144F724433A09597E3476A57631255 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1645,8 +1700,8 @@
 		4F14C279EA1D8B61D726CE82305805E8 /* Build configuration list for PBXNativeTarget "KeychainSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD9B79749EE5846A57CBF7CA081D13A7 /* Debug */,
-				9EE52C0E7D02352BD11F5EDBE49CFCF2 /* Release */,
+				6D42AADDE627CAA9326B26562C62C4AF /* Debug */,
+				0B26FBBBA7975018AC5C44525BA2A282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1654,8 +1709,8 @@
 		A4E1B77A323D2F707D2F6A984AD5B14E /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				164CB8C8902D01C67B484845ABAF208F /* Debug */,
-				75B5938B94D945B92E31491FA25AD3C2 /* Release */,
+				AAD8B7FC4AD5823F910CFEF6E44AEA03 /* Debug */,
+				BCF3C91F11403080AD529F3254A1DB61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1663,8 +1718,8 @@
 		DD7543A3AAD5E6779C42977DBC120611 /* Build configuration list for PBXNativeTarget "Pods-Prototyper Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E31BBECBC5D2976A64969461A18CE53 /* Debug */,
-				3DD582076023D9CE2E7F2BAEA6CA05D5 /* Release */,
+				465BA508AFEB99ABCEA708DF174EA8F1 /* Debug */,
+				B6A7BB71BF8BA3BABE457834C6461E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1672,8 +1727,8 @@
 		F572CD94028B5DA9FF886BE9515D46A2 /* Build configuration list for PBXNativeTarget "Prototyper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				56BF913F47A17EDECF88C1B726B207C2 /* Debug */,
-				0EC4D6ACB19F0D8D4C01F8CD99B6836B /* Release */,
+				6CFB75AC879D0E52881E33D7DA26819F /* Debug */,
+				0EAFC1E4BC52C0C14448CA01A27FCFE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
