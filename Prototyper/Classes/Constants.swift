@@ -106,7 +106,7 @@ struct Texts {
 }
 
 struct PrototypeUI {
-    static let ButtonColor = UIColor(colorLiteralRed: 0.5, green: 0.5, blue: 0.5, alpha: 0.5)
+    static let ButtonColor = #colorLiteral(red: 0.02305756137, green: 0.3095591962, blue: 0.6896900535, alpha: 1)
     static let ShowButtonsTime = 0.5
     static let AnimationTime = 0.25
 }

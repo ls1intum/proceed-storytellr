@@ -74,7 +74,7 @@ class ScenarioInfoStepView: ScenarioInfoView {
     
     var stepView : UIView = {
         let view = UIView()
-        view.backgroundColor = UIColor.init(colorLiteralRed: 3.0/255.0, green: 101.0/255.0, blue: 192.0/255.0, alpha: 1.0)
+        view.backgroundColor = PrototypeUI.ButtonColor
         view.layer.cornerRadius = 25.0
         view.translatesAutoresizingMaskIntoConstraints = false
         
@@ -94,7 +94,7 @@ class ScenarioInfoStepView: ScenarioInfoView {
     var bottomView : UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = UIColor.init(colorLiteralRed: 3.0/255.0, green: 101.0/255.0, blue: 192.0/255.0, alpha: 1.0)
+        button.backgroundColor = PrototypeUI.ButtonColor
         button.layer.cornerRadius = 15.0
         button.setImage(UIImage(named: "check"), for: .normal)
         button.setTitle("OKAY", for: .normal)
