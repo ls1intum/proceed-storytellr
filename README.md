@@ -23,7 +23,7 @@ Use the feedback button to give feedback that will be displayed on the [Prototyp
 1. Integrate Prototyper Cocoapod
 
     ```swift
-    pod 'Prototyper', :git => 'https://github.com/ls1intum/proceed-storytellr.git', :branch => 'develop'
+    pod 'Prototyper', :git => 'https://github.com/ls1intum/proceed-storytellr.git', :branch => 'master'
     ```
 
 2. Create your scenario file as json. The format of it needs to be the following
