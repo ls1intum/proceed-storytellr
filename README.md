@@ -35,9 +35,9 @@ Use the feedback button to give feedback that will be displayed on the [Prototyp
         "userFeedback": "",
         "steps": [{
                   "stepNumber": 1,
-                  "stepDescription": "<Desciption for step 1>",
+                  "stepDescription": "<Description for step 1>",
                   "questions": [{
-                                "questionDescription": "<Desciption for question 1>",
+                                "questionDescription": "<Description for question 1>",
                                 "answer" : ""
                                 }
                                 ]
@@ -90,6 +90,7 @@ Lara Marie Reimer, [@laramarie](https://github.com/laramarie)
 ### Authors of the Prototyper Pod
 
 Paul Schmiedmayer, [@PSchmiedmayer](https://twitter.com/pschmiedmayer)
+
 Stefan Kofler, grafele@gmail.com
 
 ## License
